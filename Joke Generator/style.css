@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fab22e;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    color: aliceblue;
+    background-color: black;
+    max-width: 70vmin;
+    padding: 50px;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+#joke{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+#refresh{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fab22e;
+    font-weight: bold;
+    margin: 10px;
+}
