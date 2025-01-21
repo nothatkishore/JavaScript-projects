@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.main-screen{
+    height : 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.to-do{
+    height: 70%;
+    width: 30%;
+    border-radius: 10px;
+    padding: 40px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: left;
+    font-size: large;
+
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+}
+
+button span{
+    font-weight: 600;
+    font-size: medium;
+}
+
+
+.todo-container{
+    flex: 1;
+    padding: 20px;
+    font-size: small;
+    text-align: left;
+    overflow-y: auto;
+    background: #fff;
+}
+
+.task{
+    border: none;
+    background-color: aliceblue;
+}
+
+.box input:disabled{
+    color: black;
+}
+
